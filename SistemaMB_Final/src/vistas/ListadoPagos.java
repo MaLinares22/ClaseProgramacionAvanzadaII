@@ -60,13 +60,13 @@ public class ListadoPagos extends javax.swing.JFrame {
         jTableInformacion.setFont(new java.awt.Font("Lucida Sans Unicode", 0, 12)); // NOI18N
         jTableInformacion.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
             },
             new String [] {
-                "ID Servicio", "Servicio", "Descripcion", "Precio", "Duracion"
+                "ID Pago", "Tipo", "Beneficio"
             }
         ));
         jScrollPane1.setViewportView(jTableInformacion);
