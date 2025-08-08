@@ -14,7 +14,7 @@ public class ReservasModel {
     private int Tipo_Pago;
     private String Estado_Pago;
     
-    private static final Logger LOG = Logger.getLogger(EmpleadosModel.class.getName());
+    private static final Logger LOG = Logger.getLogger(ReservasModel.class.getName());
     
     public ReservasModel(int ID_Reserva, int ID_Huesped, int ID_Habitacion, String Tiempo_Reserva, int Tipo_Pago, String Estado_Pago) {
         LOG.info("Se Creó un objeto de clase Reservas");
