@@ -222,6 +222,7 @@ public class ListadoPagos extends javax.swing.JFrame {
 
     private void jButtonRefrescarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRefrescarActionPerformed
         cargarDatos();
+        pagosDAO.comitear();
     }//GEN-LAST:event_jButtonRefrescarActionPerformed
 
     private void jButtonMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMenuActionPerformed

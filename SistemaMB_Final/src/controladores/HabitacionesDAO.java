@@ -142,4 +142,17 @@ public class HabitacionesDAO {
 
     return habitacion;
    }
+    
+    public boolean comitear() {
+    try (Connection con = ConexionBD.ObtenerConexion()) {
+        con.setAutoCommit(false);
+        
+        con.commit();
+        System.err.println("Commit con exito");
+        return true;
+    } catch (SQLException ex) {
+        System.err.println("Error al Commitear: " + ex.getMessage());
+        return false;
+    }
+   }
 }

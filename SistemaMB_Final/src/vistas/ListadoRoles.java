@@ -237,6 +237,7 @@ public class ListadoRoles extends javax.swing.JFrame {
 
     private void jButtonRefrescarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRefrescarActionPerformed
         cargarDatos();
+        rolesDAO.comitear();
     }//GEN-LAST:event_jButtonRefrescarActionPerformed
 
     public static void main(String args[]) {
